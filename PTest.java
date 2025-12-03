@@ -21,10 +21,6 @@ public class PTest {
 			e.printStackTrace();
 		}
 
-		for(int i = 0; i < input_files.length; i++) {
-			processFile(input_files[i], output_files[i]);
-		}
-
 		long end = System.nanoTime();
 		double time = (end - start) / 1000000000.0;
 		System.out.println("Total time: " + time + " s");
